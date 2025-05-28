@@ -1,208 +1,28 @@
 ---
-title: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Team | Materials AI Lab | Mechanical Engineering at Binghamton University"
 layout: gridlay
-excerpt: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Team | Materials AI Lab | Mechanical Engineering at Binghamton University"
 sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+# Team
 
-**If you are interested in either a Ph.D. or postdoctoral position please get in touch! There is currently an opening for a postdoc/RA!**
-
-## Staff
-
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
+## Principal Investigator
 
 <div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i>
-  <br>
-  <i>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 5 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-  <br>
-  <br>
-  <i>{{ member.bio }}</i>
+  <div class="col-sm-6 clearfix">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/hyuna.jpg" class="img-responsive" width="25%" style="float: left" />
+    <h4>Hyuna Kwon</h4>
+    <i>Assistant Professor, Mechanical Engineering, Binghamton University<br>
+    email: <hkwon@binghamton.edu></i>
+    <ul style="overflow: hidden">
+      <li>Ph.D. in Chemical & Environmental Engineering, UC Riverside</li>
+      <li>Postdoctoral Researcher, Lawrence Livermore National Laboratory</li>
+      <li>B.Sc. in Energy Resources Engineering, Seoul National University</li>
+    </ul>
+    <br>
+    <i>My research focuses on AI-guided materials discovery, generative models for structure–property prediction, and machine learning for environmental and energy materials.</i>
+  </div>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-## Master and Bachelor Students
-
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-<!-- ## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %} -->
-
-## Former visitors, BSc/ MSc students
-
-<div class="row">
-
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>UROP Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>

@@ -1,7 +1,7 @@
 ---
-title: "News | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "News | Mind Lab | Department of Mechanical Engineering at Binghamton University"
 layout: textlay
-excerpt: "News | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "News | Mind Lab | Department of Mechanical Engineering at Binghamton University"
 sitemap: false
 permalink: /allnews.html
 ---

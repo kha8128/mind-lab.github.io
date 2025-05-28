@@ -6,25 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Complex Additive Materials Group | Department of Engineering at the University of Cambridge
+title: MIND Lab | Department of Mechanical Engineering at Binghamton University
 tagline: >
-  Researching materials
-  chemistry, additive manufacturing, and machine learning
-  to realize entirely new devices and materials to improve
-  interaction with the human body and enhance lives.
-email: dajb3@cam.ac.uk
-description: > # this means to ignore newlines until "baseurl:"
-  The Complex Additive Materials Group is based at the
-  Institute for Manufacturing in the Department of
-  Engineering at the University of Cambridge.
-  The group researches materials chemistry, additive manufacturing,
-  and machine learning to realize entirely new devices
-  and materials whose structure and composition is
-  optimized from the nano- to the macro-scale, to improve
-  interaction with the human body and enhance lives.
+  Advancing materials and intelligence
+  through machine learning and atomistic simulations
+  for energy and environmental solutions.
+email: kwon11@llnl.gov
+description: >
+  The MIND (Materials Intelligence and Discovery) Lab focuses on
+  advancing the frontiers of computational chemistry, machine learning,
+  and materials design to address pressing challenges in sustainability,
+  energy, and environmental applications.
+
 baseurl: ""
-url: "https://cam-cambridge.github.io"
-lang: en_GB
+url: "https://kha8128.github.io/mind-lab.github.io"
+lang: en_US
 
 include:
   - .htaccess

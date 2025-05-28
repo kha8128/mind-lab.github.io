@@ -1,22 +1,23 @@
 ---
-title: "Research | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Research | Materials AI Lab | Mechanical Engineering at Binghamton University"
 layout: textlay
-excerpt: "Research | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Research | Materials AI Lab | Mechanical Engineering at Binghamton University"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-The Complex Additive Materials Group uses materials chemistry, additive manufacturing, and machine learning to realise entirely new devices and materials whose structure and composition is optimised from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+The Materials AI Lab develops physics-informed machine learning and generative models to accelerate materials discovery and understand complex structure–property relationships at multiple scales.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/venn_diagram.jpg){: style="width: 300px; float: right; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/your_image.jpg){: style="width: 300px; float: right; border: 10px"}
 
-**Digitally tailored medical devices**  
-Producing wearable and implantable medical devices that better mimic and integrate with patients/wearers.
+**AI for Materials Discovery**  
+We use generative models and diffusion-based frameworks to explore atomic structures, grain boundaries, and amorphous materials.
 
-**Materials for additive manufacturing**  
-Developing new materials whose structure and composition enable unique functionality.
+**Data-Driven Spectroscopy**  
+Combining DFT, XANES, and machine learning to interpret complex experimental spectra for disordered materials.
 
-**Learning 3D printers**  
-Understanding how machine learning approaches can improve the capabilities of 3D printers.
+**Structure–Property Relationships**  
+Learning how composition, defects, and synthesis conditions affect material performance across chemical and physical domains.
+

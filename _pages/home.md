@@ -1,12 +1,12 @@
 ---
-title: "Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Mind Lab | Department of Mechanical Engineering at Binghamton University"
 layout: homelay
-excerpt: "Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Mind Lab | Department of Mechanical Engineering at Binghamton University"
 sitemap: false
 permalink: /
 ---
 
-We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in the [Department of Engineering](http://www.eng.cam.ac.uk/) at the [University of Cambridge](https://cam.ac.uk) using materials chemistry, additive manufacturing, and machine learning to realize entirely new devices and materials whose structure and composition is optimized from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+We are the **Mind Lab**, based in the [Department of Mechanical Engineering](https://www.binghamton.edu/mechanical-engineering/) at [Binghamton University](https://www.binghamton.edu). Our research integrates **artificial intelligence**, **materials science**, and **computational chemistry** to accelerate discovery and design of advanced materials for **energy innovations**, **next-generation materials**, and **manufacturing technologies**.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -14,25 +14,19 @@ We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in 
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
-
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/materials.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/materials-ai.jpg" alt="AI for Materials" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/printer-fleet.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/simulation.jpg" alt="Molecular Simulation" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/energy.jpg" alt="Energy Materials" />
         </div>
-        <!-- Copy more of these for more images....  -->
     </div>
 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -45,18 +39,19 @@ We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in 
   </a>
 </div>
 
-**Photo credits:** © Felice Frankel, research scientist, Department of Chemical Engineering at MIT, Douglas Brion, PhD student, Department of Engineering at University of Cambridge
+<!--**Photo credits:** Research images courtesy of Mind Lab @ Binghamton, generated with in-house simulation and visualization tools.-->
 
+---
 
-The group is working on:
+The group focuses on:
 
-**Digitally tailored medical devices**  
-Producing wearable and implantable medical devices that better mimic and integrate with patients/wearers.
+**AI-accelerated materials discovery**
+Combining machine learning and simulations to explore new functional materials faster.
 
-**Materials for additive manufacturing**  
-Developing new materials whose structure and composition enable unique functionality.
+**Environmental and energy materials**
+Designing materials for carbon capture, hydrogen storage, and rare-earth recycling.
 
-**Learning 3D printers**  
-Understanding how machine learning approaches can improve the capabilities of 3D printers.
+**Atomic-level modeling and generative design**
+Using molecular dynamics and generative AI to understand and create novel structures.
 
 <br>
