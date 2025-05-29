@@ -5,7 +5,11 @@ excerpt: "Mind Lab | Department of Mechanical Engineering at Binghamton Universi
 sitemap: false
 permalink: /
 ---
-
+ 
+<div style="background-color: #006B54; color: white; padding: 2rem; text-align: center; border-radius: 8px; margin-bottom: 2rem;">
+  <h1 style="margin: 0; font-weight: 700;">Mind Lab</h1>
+  <p style="font-size: 1.25rem; margin-top: 0.5rem;">Machine Learning for Materials & Molecules</p>
+</div>
 We are the **MIND Lab**, based in the [Department of Mechanical Engineering](https://www.binghamton.edu/mechanical-engineering/) at [Binghamton University](https://www.binghamton.edu). Our research integrates **artificial intelligence**, **materials science**, and **computational chemistry** to accelerate discovery and design of advanced materials for **energy innovations**, **next-generation materials**, and **data-driven insights**.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
