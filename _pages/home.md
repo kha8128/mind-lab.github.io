@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are the **MIND Lab**, based in the [Department of Mechanical Engineering](https://www.binghamton.edu/mechanical-engineering/) at [Binghamton University](https://www.binghamton.edu). Our research integrates **artificial intelligence**, **materials science**, and **computational chemistry** to accelerate discovery and design of advanced materials for **energy innovations**, **next-generation materials**, and **manufacturing technologies**.
+We are the **MIND Lab**, based in the [Department of Mechanical Engineering](https://www.binghamton.edu/mechanical-engineering/) at [Binghamton University](https://www.binghamton.edu). Our research integrates **artificial intelligence**, **materials science**, and **computational chemistry** to accelerate discovery and design of advanced materials for **energy innovations**, **next-generation materials**, and **data-driven insights**.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -19,13 +19,13 @@ We are the **MIND Lab**, based in the [Department of Mechanical Engineering](htt
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/materials-ai.jpg" alt="AI for Materials" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/a-C_generation-with_plot.gif" alt="Amorphous Carbon AI Design" style="height: 400px; object-fit: contain; width: 100%;" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/simulation.jpg" alt="Molecular Simulation" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/aamick.2024.16.issue-24.xlargecover-3-3.jpg" alt="Proton Transfer in TiO2" style="height: 400px; object-fit: contain; width: 100%;" /> 
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/energy.jpg" alt="Energy Materials" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/images_large_ez2c00530_0005.jpeg" alt="PFAS ML Prediction" style="height: 400px; object-fit: contain; width: 100%;" /> 
         </div>
     </div>
 
@@ -39,19 +39,22 @@ We are the **MIND Lab**, based in the [Department of Mechanical Engineering](htt
   </a>
 </div>
 
-<!--**Photo credits:** Research images courtesy of Mind Lab @ Binghamton, generated with in-house simulation and visualization tools.-->
-
 ---
 
 The group focuses on:
 
-**AI-accelerated materials discovery**
-Combining machine learning and simulations to explore new functional materials faster.
+**Generative AI for atomic and molecular design**  
+We apply generative models—including diffusion models—to explore and generate structures like amorphous carbon, nanoporous catalysts, and grain boundaries.
 
-**Environmental and energy materials**
-Designing materials for carbon capture, hydrogen storage, and rare-earth recycling.
+**Data-driven spectroscopy interpretation**  
+We use neural networks to connect experimental spectra (e.g., XANES) with structural features in disordered materials.
 
-**Atomic-level modeling and generative design**
-Using molecular dynamics and generative AI to understand and create novel structures.
+**Structure–property learning**  
+Our models identify how molecular structure and composition affect key performance indicators like catalytic activity, hydrogen storage capacity, or degradability.
 
-<br>
+**Environmentally relevant materials**  
+We predict degradation pathways, bioactivity, and defluorination potential for persistent chemicals like PFAS.
+
+**Application-driven insights**  
+Our research supports design goals in clean energy, advanced coatings, separations, and catalysis by linking atomistic modeling with real-world targets.
+
