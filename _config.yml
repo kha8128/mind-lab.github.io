@@ -19,7 +19,7 @@ description: >
   energy, and environmental applications.
 
 baseurl: ""
-url: "hyunakwon.com"
+url: "https://hyunakwon.com"
 lang: en_US
 
 include:
@@ -50,3 +50,5 @@ kramdown:
 
 plugins:
   - jekyll-seo-tag
+remote_theme: kha8128/mind-lab.github.io
+
