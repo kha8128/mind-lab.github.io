@@ -6,11 +6,22 @@ sitemap: false
 permalink: /
 ---
  
-<div style="background-color: #006B54; color: white; padding: 2rem; text-align: center; border-radius: 8px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-weight: 700;">Mind Lab</h1>
-  <p style="font-size: 1.25rem; margin-top: 0.5rem;">Machine Learning for Materials & Molecules</p>
-</div>
-We are the **MIND Lab**, based in the [Department of Mechanical Engineering](https://www.binghamton.edu/mechanical-engineering/) at [Binghamton University](https://www.binghamton.edu). Our research integrates **artificial intelligence**, **materials science**, and **computational chemistry** to accelerate discovery and design of advanced materials for **energy innovations**, **next-generation materials**, and **data-driven insights**.
+<section style="padding: 8rem 2rem; text-align: center; background-color: #006B54; color: white;">
+  <h1 style="font-size: 5rem; font-weight: 800; margin: 0; color: white;">MIND Lab</h1>
+  <p style="font-size: 2.0rem; margin-top: 1rem; color: white;">Machine Learning for Materials & Molecules</p>
+  <p style="font-size: 1.7rem; font-weight: 300; margin-top: 0.5rem; color: white;">
+    Department of Mechanical Engineering at Binghamton University
+  </p>
+</section>
+
+<section style="padding: 2rem 1rem; max-width: 900px; margin: auto;">
+  <p style="font-size: 1.7rem;">
+    We are the <strong>MIND Lab</strong>, based in the <a href="https://www.binghamton.edu/mechanical-engineering/">Department of Mechanical Engineering</a> at 
+    <a href="https://www.binghamton.edu">Binghamton University</a>. Our research integrates <strong>artificial intelligence</strong>, 
+    <strong>materials science</strong>, and <strong>computational chemistry</strong> to accelerate discovery of advanced materials for 
+    <strong>energy innovations</strong>, <strong>next-generation technologies</strong>, and <strong>data-driven design</strong>.
+  </p>
+</section>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -23,13 +34,13 @@ We are the **MIND Lab**, based in the [Department of Mechanical Engineering](htt
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/a-C_generation-with_plot.gif" alt="Amorphous Carbon AI Design" style="height: 400px; object-fit: contain; width: 100%;" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/three_circles.png" alt="Research Area" style="height: 400px; object-fit: contain; width: 100%;" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/aamick.2024.16.issue-24.xlargecover-3-3.jpg" alt="Proton Transfer in TiO2" style="height: 400px; object-fit: contain; width: 100%;" /> 
+            <img src="{{ site.url }}{{ site.baseurl }}/images/method_app.png" alt="Methods and applications" style="height: 400px; object-fit: contain; width: 100%;" /> 
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/images_large_ez2c00530_0005.jpeg" alt="PFAS ML Prediction" style="height: 400px; object-fit: contain; width: 100%;" /> 
+            <img src="{{ site.url }}{{ site.baseurl }}/images/meche_app.png" alt="Mechanical engineering applications" style="height: 400px; object-fit: contain; width: 100%;" /> 
         </div>
     </div>
 
