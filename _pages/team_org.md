@@ -1,7 +1,7 @@
 ---
-title: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Team | Materials INtelligence Design Group | Department of Mechanical Engineering at Binghamton University"
 layout: gridlay
-excerpt: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Team | Materials INtelligence Deisng Group | Department of Mechanical Engineering at Binghamton University"
 sitemap: false
 permalink: /team/
 ---
