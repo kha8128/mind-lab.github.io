@@ -19,7 +19,7 @@ We are recruiting Ph.D. students interested in:
 Applicants should apply through the [Binghamton University Graduate School](https://www.binghamton.edu/grad-school/), listing Prof. Hyuna Kwon as a potential advisor.
 
 ### 🧑‍🔬 Postdoctoral Researchers
-Postdoc opportunities depend on funding availability. If you are interested in working with us, email Prof. Hyuna Kwon (kwon11@binghamton.edu) with your CV and a brief research statement.
+Postdoc opportunities depend on funding availability. If you are interested in working with us, email Prof. Hyuna Kwon (hkwon7@binghamton.edu) with your CV and a brief research statement.
 
 ### 📚 Undergraduate Researchers
 Binghamton undergraduates looking to get research experience in computational modeling or AI for materials science are encouraged to reach out. Prior coding experience (e.g., Python) is helpful but not required.
