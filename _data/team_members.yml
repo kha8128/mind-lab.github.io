@@ -13,3 +13,9 @@
   number_educ: 2
   education1: B.Sc. in Applied Chemistry and Chemical Engineering, University of Dhaka
   education2: Ph.D. in Chemistry, Louisiana State University
+- name: "Usama Ahmed"
+  photo: usama_ahmed.jpg
+  info: Ph.D. Student, Department of Mechanical Engineering
+  email: uahmed5@binghamton.edu
+  number_educ: 1
+  education1: B.Sc. in Materials Science and Engineering, Rajshahi University of Engineering & Technology
