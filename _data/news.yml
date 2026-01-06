@@ -1,8 +1,5 @@
-- date: "2026-01-01"
-  title: "New group members"
-  description: "Usama Ahmed and Golam Azom joined the group."
+- date: "2026-01-05"
+  headline: "Usama Ahmed and Golam Azom joined the group."
 
-- date: "2025-08-01"
-  title: "Lab launch"
-  description: "Hyuna Kwon started as Assistant Professor in Mechanical Engineering at Binghamton University."
-
+- date: "2025-08-20"
+  headline: "Hyuna Kwon started as Assistant Professor in Mechanical Engineering at Binghamton University."
