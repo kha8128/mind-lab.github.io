@@ -6,12 +6,22 @@ sitemap: false
 permalink: /
 ---
  
-<section style="padding: 8rem 2rem; text-align: center; background-color: #006B54; color: white;">
+<!--<section style="padding: 8rem 2rem; text-align: center; background-color: #006B54; color: white;">
   <h1 style="font-size: 5rem; font-weight: 800; margin: 0; color: white;">MIND Lab</h1>
   <p style="font-size: 2.0rem; margin-top: 1rem; color: white;">Machine Learning for Materials & Molecules</p>
   <p style="font-size: 1.7rem; font-weight: 300; margin-top: 0.5rem; color: white;">
     Department of Mechanical Engineering at Binghamton University
   </p>
+</section>--!>
+
+<section style="
+  padding: 8rem 2rem;
+  text-align: center;
+  color: white;
+  background-image: url('{{ site.url }}{{ site.baseurl }}/images/binghamton_campus.jpeg');
+  background-size: cover;
+  background-position: center;
+">
 </section>
 
 <section style="padding: 2rem 1rem; max-width: 900px; margin: auto;">
@@ -23,38 +33,34 @@ permalink: /
   </p>
 </section>
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
+<div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
 
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/three_circles.png" alt="Research Area" style="height: 400px; object-fit: contain; width: 100%;" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/method_app.png" alt="Methods and applications" style="height: 400px; object-fit: contain; width: 100%;" /> 
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/meche_app.png" alt="Mechanical engineering applications" style="height: 400px; object-fit: contain; width: 100%;" /> 
-        </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/three_circles.png" class="d-block w-100" alt="Research Area" style="height: 400px; object-fit: contain;">
     </div>
+    <div class="carousel-item">
+      <img src="/images/method_app.png" class="d-block w-100" alt="Methods and Applications" style="height: 400px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/meche_app.png" class="d-block w-100" alt="Mechanical Applications" style="height: 400px; object-fit: contain;">
+    </div>
+  </div>
 
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
----
 
 The group focuses on:
 

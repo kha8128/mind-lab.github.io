@@ -1,0 +1,9 @@
+:q1
+- name: Hyuna Kwon
+  photo: hyuna_kwon.jpg  # Make sure the image file exists in /images/teampic/
+  info: Assistant Professor, Department of Mechanical Engineering
+  email: hkwon7@binghamton.edu 
+  number_educ: 3
+  education1: Postdoctoral Researcher, Lawrence Livermore National Laboratory
+  education2: Ph.D. in Chemical & Environmental Engineering, University of California, Riverside
+  education3: B.Sc. in Energy Resources and Chemical Engineering, Seoul National University
