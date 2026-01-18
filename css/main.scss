@@ -11,9 +11,15 @@ img { margin-bottom: 24px;
 
 body {
   font-family: 'Lato', sans-serif;
-  padding-top: 70px;
+  padding-top: 90px;
   color: #222;
   background-color: #fdfdfd;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px;  // mobile navbar often wraps
+  }
 }
 
 // Binghamton color palette
@@ -30,38 +36,21 @@ a {
   color: $primary-green;
   text-decoration: none;
 }
+
 a:hover {
   color: $accent-green;
   text-decoration: underline;
+}
+
 .btn-primary {
   background-color: $primary-green;
   border-color: $primary-green;
 }
 
-.navbar-default {
-  background-color: #006B54;
-  border-color: #004c3c;
-}
-
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  color: #ddd;
-}
-
-.well {
-  background-color: #f5f5f5;
-  border-left: 4px solid #006B54;
-  padding: 1rem;
-}
-
 .btn-primary:hover {
   background-color: $accent-green;
   border-color: $accent-green;
-}}
+}
 
 .panel-footer {
   background-color: #f2f2f2;
