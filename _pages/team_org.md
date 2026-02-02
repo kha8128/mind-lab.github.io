@@ -8,7 +8,7 @@ permalink: /team/
 
 # Group Members
 
-## PI 
+## PI
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -25,27 +25,30 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
   <br>
-  <i>email: <{{ member.email }}></i>
+  <i>email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></i>
   <ul style="overflow: hidden">
 
 {% if member.number_educ == 1 %}
 
   <li> {{ member.education1 }} </li>
-  {% endif %}
+
+{% endif %}
 
 
 {% if member.number_educ == 2 %}
 
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
-  {% endif %}
+
+{% endif %}
 
 {% if member.number_educ == 3 %}
 
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
-  {% endif %}
+
+{% endif %}
 
 {% if member.number_educ == 4 %}
 
@@ -53,7 +56,8 @@ permalink: /team/
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
-  {% endif %}
+
+{% endif %}
 
 {% if member.number_educ == 5 %}
 
@@ -62,9 +66,11 @@ permalink: /team/
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
-  {% endif %}
+
+{% endif %}
 
   </ul>
+
   <br>
   <br>
 
@@ -85,6 +91,7 @@ permalink: /team/
 
 </div>
 {% endif %}
+
 <!--
 ## Master and Bachelor Students
 
@@ -97,6 +104,7 @@ permalink: /team/
 
 <div class="row">
 {% endif %}
+
 
 <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
@@ -130,6 +138,7 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   {% endif %}
 
+
   </ul>
 </div>
 
@@ -162,6 +171,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
@@ -194,6 +204,7 @@ permalink: /team/
 {% endfor %}
 </div>
 
+
 <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
@@ -207,6 +218,7 @@ permalink: /team/
 
 {{ member.name }}
 {% endfor %}
-</div> 
+</div>
 
 </div> -->
+

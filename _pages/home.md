@@ -5,7 +5,7 @@ excerpt: "Mind Lab | Department of Mechanical Engineering at Binghamton Universi
 sitemap: false
 permalink: /
 ---
- 
+
 <!--<section style="padding: 8rem 2rem; text-align: center; background-color: #006B54; color: white;">
   <h1 style="font-size: 5rem; font-weight: 800; margin: 0; color: white;">MIND Lab</h1>
   <p style="font-size: 2.0rem; margin-top: 1rem; color: white;">Machine Learning for Materials & Molecules</p>
@@ -26,11 +26,29 @@ permalink: /
 
 <section style="padding: 2rem 1rem; max-width: 900px; margin: auto;">
   <p style="font-size: 1.7rem;">
-    We are the <strong>MIND Lab</strong>, based in the <a href="https://www.binghamton.edu/mechanical-engineering/">Department of Mechanical Engineering</a> at 
-    <a href="https://www.binghamton.edu">Binghamton University</a>. Our research integrates <strong>artificial intelligence</strong>, 
-    <strong>materials science</strong>, and <strong>computational chemistry</strong> to accelerate discovery of advanced materials for 
+    We are the <strong>MIND Lab</strong>, based in the <a href="https://www.binghamton.edu/mechanical-engineering/">Department of Mechanical Engineering</a> at
+    <a href="https://www.binghamton.edu">Binghamton University</a>. Our research integrates <strong>artificial intelligence</strong>,
+    <strong>materials science</strong>, and <strong>computational chemistry</strong> to accelerate discovery of advanced materials for
     <strong>energy innovations</strong>, <strong>next-generation technologies</strong>, and <strong>data-driven design</strong>.
   </p>
+
+  {% if site.joint_affiliation_text %}
+  <p style="font-size: 1.15rem; margin-top: 0.6rem;">
+    {% if site.joint_affiliation_url %}
+      <a href="{{ site.joint_affiliation_url }}" style="color: inherit; text-decoration: underline;">
+        {{ site.joint_affiliation_text }}
+      </a>
+    {% else %}
+      {{ site.joint_affiliation_text }}
+    {% endif %}
+  </p>
+  {% else %}
+  <p style="font-size: 1.15rem; margin-top: 0.6rem;">
+    <a href="https://www.binghamton.edu/mse/graduate/" style="color: inherit; text-decoration: underline;">
+      Jointly affiliated with the Materials Science &amp; Engineering (MSE) Program
+    </a>
+  </p>
+  {% endif %}
 </section>
 
 {::nomarkdown}
@@ -63,3 +81,4 @@ We predict degradation pathways, bioactivity, and defluorination potential for p
 <p>
 Our research supports design goals in clean energy, advanced coatings, separations, and catalysis by linking atomistic modeling with real-world targets.
 </p>
+
