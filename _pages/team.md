@@ -37,3 +37,11 @@ permalink: /team/
 
 <!-- PASTE THE REST OF YOUR ORIGINAL team.md CONTENT BELOW THIS LINE (students, staff, alumni, etc.) -->
 
+<!-- your students / staff / alumni sections here -->
+
+<div style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd;">
+  <p style="font-size: 16px; margin-bottom: 10px;">Computational resources provided by</p>
+  <a href="https://access-ci.org/" target="_blank" rel="noopener noreferrer">
+    <img src="/images/logopic/access-logo.jpeg" alt="ACCESS logo" style="max-width: 240px; height: auto;">
+  </a>
+</div>
