@@ -56,9 +56,9 @@ permalink: /
 
 <h2>Research Directions</h2>
 
-<h3>AI for Interfacial Engineering and Microelectronics Reliability</h3>
+<h3>AI for Interfacial Engineering</h3>
 <p>
-We develop machine learning and atomistic simulation methods to understand adhesion, fracture, and reliability in materials interfaces, including hybrid bonding and Cu–dielectric interfaces for advanced microelectronics packaging.
+We develop machine learning and atomistic simulation methods to understand how molecular structure, confinement, chemistry, and mechanics control transport, adhesion, reactivity, and stability at materials interfaces.
 </p>
 
 <h3>AI-Driven Materials Characterization</h3>
