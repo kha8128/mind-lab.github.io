@@ -81,3 +81,11 @@ We use <b>machine learning</b> to understand and mitigate persistent pollutants 
    *Environ. Sci. Technol. Lett. 6 (10), 624–629*  
    [Read the paper](https://pubs.acs.org/doi/abs/10.1021/acs.estlett.9b00476)
 
+
+### Research Support & Affiliations
+
+Our research is supported by and affiliated with organizations that advance artificial intelligence, microelectronics, materials innovation, and high-performance computing.
+
+- [Integrated Electronics Engineering Center (IEEC)](https://www.binghamton.edu/ieec/)
+- [Small Scale Systems Integration and Packaging Center (S3IP)](https://www.binghamton.edu/s3ip/)
+- [ACCESS](https://access-ci.org/)
