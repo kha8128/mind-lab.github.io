@@ -27,11 +27,10 @@ permalink: /
 <section style="padding: 2rem 1rem; max-width: 900px; margin: auto;">
   <p style="font-size: 1.7rem;">
     We are the <strong>MIND Lab</strong>, based in the <a href="https://www.binghamton.edu/mechanical-engineering/">Department of Mechanical Engineering</a> at
-    <a href="https://www.binghamton.edu">Binghamton University</a>. Our research integrates <strong>artificial intelligence</strong>,
-    <strong>materials science</strong>, and <strong>computational chemistry</strong> to accelerate discovery of advanced materials for
-    <strong>energy innovations</strong>, <strong>next-generation technologies</strong>, and <strong>data-driven design</strong>.
+    <a href="https://www.binghamton.edu">Binghamton University</a>. Our research develops <strong>artificial intelligence</strong> and
+    <strong>atomistic simulation</strong> methods to understand and design materials for <strong>interfacial engineering</strong>,
+    <strong>microelectronics reliability</strong>, <strong>energy technologies</strong>, and <strong>environmental sustainability</strong>.
   </p>
-
   {% if site.joint_affiliation_text %}
   <p style="font-size: 1.15rem; margin-top: 0.6rem;">
     {% if site.joint_affiliation_url %}
@@ -55,30 +54,19 @@ permalink: /
 {% include home_carousel.html %}
 {:/nomarkdown}
 
-<h2>The group focuses on:</h2>
+<h2>Research Directions</h2>
 
-<h3>Generative AI for atomic and molecular design</h3>
+<h3>AI for Interfacial Engineering and Microelectronics Reliability</h3>
 <p>
-We apply generative models—including diffusion models—to explore and generate structures like amorphous carbon, nanoporous catalysts, and grain boundaries.
+We develop machine learning and atomistic simulation methods to understand adhesion, fracture, and reliability in materials interfaces, including hybrid bonding and Cu–dielectric interfaces for advanced microelectronics packaging.
 </p>
 
-<h3>Data-driven spectroscopy interpretation</h3>
+<h3>AI-Driven Materials Characterization</h3>
 <p>
-We use neural networks to connect experimental spectra (e.g., XANES) with structural features in disordered materials.
+We combine spectroscopy simulation, neural networks, and generative models to infer atomic structures and structure–property relationships in disordered and complex materials.
 </p>
 
-<h3>Structure–property learning</h3>
+<h3>Energy and Environmental Materials</h3>
 <p>
-Our models identify how molecular structure and composition affect key performance indicators like catalytic activity, hydrogen storage capacity, or degradability.
+We use quantum chemistry, molecular simulation, and data-driven modeling to study materials and molecular systems relevant to clean energy, catalysis, separations, and PFAS degradation.
 </p>
-
-<h3>Environmentally relevant materials</h3>
-<p>
-We predict degradation pathways, bioactivity, and defluorination potential for persistent chemicals like PFAS.
-</p>
-
-<h3>Application-driven insights</h3>
-<p>
-Our research supports design goals in clean energy, advanced coatings, separations, and catalysis by linking atomistic modeling with real-world targets.
-</p>
-
