@@ -10,7 +10,12 @@ Our group is committed to mentoring students and broadening participation in AI-
 
 ## AI for the Public Good
 
-Our group participates in Binghamton University's AI for the Public Good initiative by mentoring undergraduate students on applications of artificial intelligence and data science to scientific and engineering challenges.
+Our group participates in Binghamton University's
+[Advancing AI for the Public Good](https://www.binghamton.edu/centers/ai-for-the-public-good/)
+initiative, which supports undergraduate research, AI education, workforce development, and community engagement across multiple SUNY campuses. :contentReference[oaicite:1]{index=1}
+
+Through this program, our group mentors undergraduate students on applications of artificial intelligence and data science to scientific and engineering challenges.
+
 
 ## Future Activities
 
