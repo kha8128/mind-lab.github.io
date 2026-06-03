@@ -1,7 +1,7 @@
 ---
-title: "Outreach & Mentoring | Mind Lab"
+title: "Outreach"
 permalink: /outreach/
-excerpt: "Outreach and mentoring activities of the Mind Lab"
+excerpt: "Outreach and mentoring activities of the MIND Group"
 ---
 
 # Outreach & Mentoring
